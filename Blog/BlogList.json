@@ -1,19 +1,12 @@
-{
-    "自定义CMD命令": {
-        "source": {
-            "BAT": {
-                "bvue.cmd": "",
-                "cmds.cmd": "",
-                "cvue.cmd": "",
-                "exp.cmd": "",
-                "npm_marked.cmd": "",
-                "rvue.cmd": "",
-                "sttp.cmd": ""
-            },
-            "pict": {
-                "cmds.png": ""
-            }
-        },
-        "Readme.md": ""
+[
+    {
+        "name": "时间戳与日期",
+        "cTime": 1702019836.5358064,
+        "mTime": 1702022428.3986447
+    },
+    {
+        "name": "自定义CMD命令",
+        "cTime": 1701639290.013078,
+        "mTime": 1702021576.6614988
     }
-}
+]
