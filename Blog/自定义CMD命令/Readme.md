@@ -8,6 +8,10 @@
 - ``rvue``：实际调用命令为：npm run dev，一般用于运行Vue项目所以就把这命令写成``rvue``
 
 
+# ``cmds.cmd``运行截图：
+![cmds.cmd](./source/pict/cmds.png)
+
+
 # 说明：
 - 资源在附录中，需自行下载
 - 建议在环境变量中配一个路径方便调用和维护命令
