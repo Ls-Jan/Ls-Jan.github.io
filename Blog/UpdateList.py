@@ -16,36 +16,68 @@ def GetSourceStruct(path):#获取资源结构
 			data[name]=''
 	return struct[path]
 
-def GetLatestModifyTime(path):#遍历目录，获取最新的修改时间
+def SearchReadme(struct,sep='/'):#搜索所有Readme.md文件。struct为GetSourceStruct返回的数据
+	stack=[[f'.',struct]]
+	rst=[]
+	while(stack):
+		path,subStrcut=stack.pop()
+		for name in subStrcut:
+			if(type(subStrcut[name])==dict):#目录
+				stack.append([f'{path}{sep}{name}',subStrcut[name]])
+			elif(name.lower()=='readme.md'):#Readme文件
+			# elif(os.path.splitext(name)[1]=='.md'):#*.md文件
+				rst.append([f'{path}{sep}{name}',subStrcut])
+	return rst
+
+def GetLatestModifyTime(path,cache={}):#遍历目录，获取最新的修改时间
 	latest=os.path.getmtime(path)
+	if(path in cache):
+		return cache[path]
 	for root, dirs, files in os.walk(path):
 		for name in files:
 			mTime=os.path.getmtime(os.path.join(root,name))
 			if(mTime>latest):
 				latest=mTime
+		for name in dirs:
+			mTime=GetLatestModifyTime(os.path.join(root,name),cache)
+			if(mTime>latest):
+				latest=mTime
+	cache[path]=latest
 	return latest
 
 if __name__ == '__main__':
 	path='./'
 	json_list='BlogList.json'
-	json_struct='BlogStruct.json'
 
+	#获取目录资源结构，并移除无关信息，只留下博客文件夹
 	blogStruct=GetSourceStruct(path)
-	for i in ['__pycache__',json_list,json_struct,os.path.split(__file__)[1]]:#移除这些信息，只留下博客文件夹
-		if(i in blogStruct):
-			blogStruct.pop(i)
+	removeLst=['__pycache__']
+	for name in blogStruct.keys():
+		if(blogStruct[name]==''):
+			removeLst.append(name)
+	for i in removeLst:
+		blogStruct.pop(i)
 
-	blogList=[{'name':name,'cTime':os.path.getctime(os.path.join(path,name)),'mTime':GetLatestModifyTime(name)} for name in blogStruct ]
+	#获取博客信息并对其按照修改时间降序排序(自新到旧)
+	cache={}
+	blogList=[]
+	for item in SearchReadme(blogStruct):
+		name,struct=item
+		path=os.path.split(name)[0]
+		cTime=os.path.getctime(path)*1000#JS的时间刻是按毫秒的，乘1k补足(js那边的代码已经够乱了，尽量在这里处理好数据
+		mTime=GetLatestModifyTime(path,cache)*1000
+		blogList.append({'name':name,'cTime':cTime,'mTime':mTime,'struct':struct})
 	blogList.sort(key=lambda item:item['mTime'],reverse=True)
 
-	blogStruct=json.dumps(blogStruct,ensure_ascii=False,indent=4)
+	#JSON序列化并保存
 	blogList=json.dumps(blogList,ensure_ascii=False,indent=4)
-	# print(blogStruct)
-	# print(blogList)
 	with open(json_list,'w',encoding='utf-8') as f:
 		f.write(blogList)
-	with open(json_struct,'w',encoding='utf-8') as f:
-		f.write(blogStruct)
+	# print(blogList)
 
-	print(f'【{json_list}】  【{json_struct}】  更新完毕\n')
+	print(f'【{json_list}】  更新完毕\n')
 	os.system('pause')
+
+
+
+
