@@ -66,7 +66,6 @@ def DrawRect(ptr,rect,roundLst=[False,False,False,False],radius=50,*,start=0):#r
 	ry=rect.center().y()
 
 	startPoint=QPoint(rx+math.cos(math.radians(angle))*rw,ry-math.sin(math.radians(angle))*rh)
-	print(startPoint)
 	path.moveTo(startPoint)
 	roundLst.extend([False]*4)#默认直角
 	for flag in roundLst[:4]:#逆时针，右上开始绘制
