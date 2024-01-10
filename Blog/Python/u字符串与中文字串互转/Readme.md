@@ -41,4 +41,7 @@ print(tx2.encode('ascii','backslashreplace').decode('unicode-escape'))#转换成
 - ``str.encode``函数参数-``backslashreplace``： [https://www.w3school.com.cn/python/ref_string_encode.asp](https://www.w3school.com.cn/python/ref_string_encode.asp)
 - ``str.encode``函数参数-``codecs.register_error()``：[https://www.runoob.com/python/att-string-encode.html](https://www.runoob.com/python/att-string-encode.html)
 - ``codecs``模块：[https://cloud.tencent.com/developer/section/1371694](https://cloud.tencent.com/developer/section/1371694)
+- python中unicode编码转换为中文：[https://zhuanlan.zhihu.com/p/489885748](https://zhuanlan.zhihu.com/p/489885748)
+
+
 
