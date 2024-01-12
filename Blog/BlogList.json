@@ -1,8 +1,104 @@
 [
     {
+        "name": "./其他/一些网页收藏/Readme.md",
+        "cTime": 1704147901417.056,
+        "mTime": 1705066821790.597,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./PyQt/自定义控件/Readme.md",
+        "cTime": 1704882390571.1616,
+        "mTime": 1705062048081.389,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Web开发/[JavaScript]异步操作/Readme.md",
+        "cTime": 1704979187279.6208,
+        "mTime": 1705062035737.8223,
+        "struct": {
+            "await": {
+                "source": {
+                    "1-1.png": "",
+                    "1-2.png": "",
+                    "1-3.png": "",
+                    "1、使用await获取Promise返回值.html": "",
+                    "EasyPrint.js": ""
+                },
+                "Readme.md": ""
+            },
+            "Promise": {
+                "source": {
+                    "1、执行异步代码+获取返回结果.html": "",
+                    "1、执行异步代码+获取返回结果.png": "",
+                    "2、多次设置回调函数.gif": "",
+                    "2、多次设置回调函数.html": "",
+                    "3-1、Promise链-连续返回.html": "",
+                    "3-1、Promise链-连续返回.png": "",
+                    "3-2、Promise链-多级延时(优化版).gif": "",
+                    "3-2、Promise链-多级延时(优化版).html": "",
+                    "3-2、Promise链-多级延时.html": "",
+                    "4、then中的函数返回值会被装进新的Promise中.html": "",
+                    "4、then中的函数返回值会被装进新的Promise中.png": "",
+                    "5、catch兜底捕获Promise抛出的异常.html": "",
+                    "5、catch兜底捕获Promise抛出的异常.png": "",
+                    "6、Promise敲定后，其内部抛出的异常不会影响其敲定状态.html": "",
+                    "6、Promise敲定后，其内部抛出的异常不会影响其敲定状态.png": "",
+                    "EasyPrint.js": ""
+                },
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Web开发/[JavaScript]异步操作/await/Readme.md",
+        "cTime": 1705002181362.8743,
+        "mTime": 1705062035737.8223,
+        "struct": {
+            "source": {
+                "1-1.png": "",
+                "1-2.png": "",
+                "1-3.png": "",
+                "1、使用await获取Promise返回值.html": "",
+                "EasyPrint.js": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Web开发/[JavaScript]异步操作/Promise/Readme.md",
+        "cTime": 1704883254717.243,
+        "mTime": 1705060544485.4958,
+        "struct": {
+            "source": {
+                "1、执行异步代码+获取返回结果.html": "",
+                "1、执行异步代码+获取返回结果.png": "",
+                "2、多次设置回调函数.gif": "",
+                "2、多次设置回调函数.html": "",
+                "3-1、Promise链-连续返回.html": "",
+                "3-1、Promise链-连续返回.png": "",
+                "3-2、Promise链-多级延时(优化版).gif": "",
+                "3-2、Promise链-多级延时(优化版).html": "",
+                "3-2、Promise链-多级延时.html": "",
+                "4、then中的函数返回值会被装进新的Promise中.html": "",
+                "4、then中的函数返回值会被装进新的Promise中.png": "",
+                "5、catch兜底捕获Promise抛出的异常.html": "",
+                "5、catch兜底捕获Promise抛出的异常.png": "",
+                "6、Promise敲定后，其内部抛出的异常不会影响其敲定状态.html": "",
+                "6、Promise敲定后，其内部抛出的异常不会影响其敲定状态.png": "",
+                "EasyPrint.js": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
         "name": "./Qt开发/Readme.md",
         "cTime": 1704147929750.0527,
-        "mTime": 1704854217495.8572,
+        "mTime": 1704882328587.0186,
         "struct": {
             "QPainter.eraseRect失效": {
                 "pict": {
@@ -12,6 +108,14 @@
                     "2.png": ""
                 },
                 "Readme.md": ""
+            },
+            "Qt样式表": {
+                "字体更大的富文本": {
+                    "pict": {
+                        "1.png": ""
+                    },
+                    "Readme.md": ""
+                }
             },
             "使用QPainterPath绘制圆角矩形": {
                 "pict": {
@@ -29,6 +133,13 @@
                 },
                 "Readme.md": ""
             },
+            "控件叠罗汉时的绘制问题": {
+                "pict": {
+                    "1-1.png": "",
+                    "1-2.png": ""
+                },
+                "Readme.md": ""
+            },
             "组件脱焦实现": {
                 "source": {
                     "1.gif": "",
@@ -36,24 +147,30 @@
                 },
                 "Readme.md": ""
             },
-            "细碎内容": {
-                "pict": {
-                    "1-1.png": "",
-                    "1-2.png": ""
-                },
-                "Readme.md": ""
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Qt开发/控件叠罗汉时的绘制问题/Readme.md",
+        "cTime": 1704743238321.6956,
+        "mTime": 1704882308732.108,
+        "struct": {
+            "pict": {
+                "1-1.png": "",
+                "1-2.png": ""
             },
             "Readme.md": ""
         }
     },
     {
-        "name": "./Qt开发/细碎内容/Readme.md",
-        "cTime": 1704743238321.6956,
-        "mTime": 1704854217495.8572,
+        "name": "./Python/[爬虫]爬取爱给网的图标素材/Readme.md",
+        "cTime": 1704881052479.1194,
+        "mTime": 1704881833393.0466,
         "struct": {
-            "pict": {
-                "1-1.png": "",
-                "1-2.png": ""
+            "source": {
+                "1.png": "",
+                "2.png": "",
+                "Main.py": ""
             },
             "Readme.md": ""
         }
@@ -113,14 +230,6 @@
         "name": "./C++/[Windows]获取进程父子关系(进程树)+终止目标进程及其子进程/Readme.md",
         "cTime": 1704018651966.7217,
         "mTime": 1704647840423.7102,
-        "struct": {
-            "Readme.md": ""
-        }
-    },
-    {
-        "name": "./其他/一些网页收藏/Readme.md",
-        "cTime": 1704147901417.056,
-        "mTime": 1704613414023.5134,
         "struct": {
             "Readme.md": ""
         }
@@ -309,7 +418,7 @@
         }
     },
     {
-        "name": "./Python/[PyQt]Qpixmap与numpy.array互转/Readme.md",
+        "name": "./PyQt/Qpixmap与numpy.array互转/Readme.md",
         "cTime": 1704020130150.2385,
         "mTime": 1704020286477.0054,
         "struct": {
@@ -331,7 +440,7 @@
         }
     },
     {
-        "name": "./Qt样式表/字体更大的富文本/Readme.md",
+        "name": "./Qt开发/Qt样式表/字体更大的富文本/Readme.md",
         "cTime": 1704019392697.2712,
         "mTime": 1704019528697.816,
         "struct": {
@@ -342,7 +451,7 @@
         }
     },
     {
-        "name": "./Python/[PyQt]PIL.Image转QPixmap后运行异常/Readme.md",
+        "name": "./PyQt/PIL.Image转QPixmap后运行异常/Readme.md",
         "cTime": 1704018487053.8826,
         "mTime": 1704018577403.2546,
         "struct": {
