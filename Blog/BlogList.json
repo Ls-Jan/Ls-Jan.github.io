@@ -2,15 +2,7 @@
     {
         "name": "./其他/一些网页收藏/Readme.md",
         "cTime": 1704147901417.056,
-        "mTime": 1705066821790.597,
-        "struct": {
-            "Readme.md": ""
-        }
-    },
-    {
-        "name": "./PyQt/自定义控件/Readme.md",
-        "cTime": 1704882390571.1616,
-        "mTime": 1705062048081.389,
+        "mTime": 1705082764212.1985,
         "struct": {
             "Readme.md": ""
         }
@@ -18,7 +10,7 @@
     {
         "name": "./Web开发/[JavaScript]异步操作/Readme.md",
         "cTime": 1704979187279.6208,
-        "mTime": 1705062035737.8223,
+        "mTime": 1705077951216.1538,
         "struct": {
             "await": {
                 "source": {
@@ -57,7 +49,7 @@
     {
         "name": "./Web开发/[JavaScript]异步操作/await/Readme.md",
         "cTime": 1705002181362.8743,
-        "mTime": 1705062035737.8223,
+        "mTime": 1705077951216.1538,
         "struct": {
             "source": {
                 "1-1.png": "",
@@ -72,7 +64,7 @@
     {
         "name": "./Web开发/[JavaScript]异步操作/Promise/Readme.md",
         "cTime": 1704883254717.243,
-        "mTime": 1705060544485.4958,
+        "mTime": 1705077939551.303,
         "struct": {
             "source": {
                 "1、执行异步代码+获取返回结果.html": "",
@@ -92,6 +84,14 @@
                 "6、Promise敲定后，其内部抛出的异常不会影响其敲定状态.png": "",
                 "EasyPrint.js": ""
             },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./PyQt/自定义控件/Readme.md",
+        "cTime": 1704882390571.1616,
+        "mTime": 1705062048081.389,
+        "struct": {
             "Readme.md": ""
         }
     },
