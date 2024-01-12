@@ -1,0 +1,30 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+
+	setTimeout(() => {
+		let p2 = new Promise((resolve, reject) => {
+			resolve('p2-RESOLVE-CALL');
+			print('p2-RESOLVE-END');
+			throw 'p2-ERROR-THROW';
+			print('p2-ERROR-THROW-END');
+		});
+		p2.then(val => print(val)).catch(err => print(err));
+	}, 500)
+
+	setTimeout(() => {
+		print();
+		let p3 = new Promise((resolve, reject) => {
+			reject('p3-ERROR-CALL');
+			print('p3-REJECT-END');
+			throw 'p3-ERROR-THROW';
+			print('p3-ERROR-THROW-END');
+		});
+		p3.then(val => print(val)).catch(err => print(err));
+	}, 1000)
+
+</script>

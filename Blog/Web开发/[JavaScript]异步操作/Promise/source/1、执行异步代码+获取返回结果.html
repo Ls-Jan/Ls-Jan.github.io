@@ -1,0 +1,33 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+
+	function func_0() {
+		print('【执行异步代码(无回调)】');
+	}
+	function func_1(resolve) {
+		print('【执行异步代码(成功回调)】');
+		resolve('11111');
+		print('【调用resolve后继续输出】');//说明调用resolve后不会结束，仍会继续向下执行
+	}
+	function func_2(resolve, reject) {
+		print('【执行异步代码(失败回调)】');
+		reject('ERROR-22222');
+		resolve('22222');//只会调用一次回调函数，后面的回调都不会真正调用
+	}
+
+	new Promise(func_0);
+	new Promise(func_1).then((data) => {
+		print('func_1函数执行结果：' + data);
+	});
+	new Promise(func_2).then((data) => {
+		print('func_2函数执行结果：' + data);
+	}).catch((err) => {
+		print('func_2函数执行异常：' + err);
+	});
+
+</script>

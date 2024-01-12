@@ -1,0 +1,23 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+	let p0 = null;
+	let p1 = new Promise((f1) => f1("A"));
+	let p2 = p1.then((val) => {
+		p0 = new Promise((f2) => f2(val + "B"));
+		p0.test = 3;
+		return p0;//返回的p0不会因为它是Promise而免于一装，它还是会被装进新的Promise中的
+	});
+	let p3 = p2.then((val) => print(val));
+
+	setTimeout(() => {
+		print();
+		print('p0.test=' + p0.test);
+		print('p2.test=' + p2.test);
+		print('p0==p2? ' + String(p0 == p2));
+	})
+</script>

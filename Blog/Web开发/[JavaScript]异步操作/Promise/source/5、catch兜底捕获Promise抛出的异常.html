@@ -1,0 +1,13 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+	let p1 = new Promise((resolve, reject) => {
+		// reject('p1-REJECT-CALL');
+		throw 'p1-ERROR-THROW';
+	});
+	p1.then(val => print(val)).catch(err => print(err));
+</script>

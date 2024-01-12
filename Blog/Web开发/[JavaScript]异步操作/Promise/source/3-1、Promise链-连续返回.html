@@ -1,0 +1,21 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+	new Promise((reso) => { reso("Promise链：") })
+		.then((value) => `${value}` + '1')
+		.then((value) => `${value}` + '2')
+		.then((value) => `${value}` + '3')
+		.then((value) => {
+			print(value);
+		})
+		.catch((err) => {
+			print(err);
+		});
+
+</script>

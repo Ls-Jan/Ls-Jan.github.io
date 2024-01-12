@@ -1,0 +1,64 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+	function RequestUrl(url, flag) {//模拟数据请求，flag确定假定的3种请求结果
+		return new Promise((resolve, reject) => {
+			setTimeout(() => {
+				if (flag > 0) {
+					let lst = url.split('/');
+					resolve(String(flag) + '、' + lst[lst.length - 1]);
+				}
+				else if (flag == 0)
+					resolve(null);
+				else
+					reject('数据读取异常：' + url);
+			}, 500);
+		});
+	}
+
+	async function Init(testFlag = [1, 0, -1]) {
+		let A = await RequestUrl('./source/A.json', testFlag[0]);
+		let flag = true;
+		if (A) {//模拟在A请求成功后的行为
+			print('已读取A.json');
+			let B = await RequestUrl('./source/B.json', testFlag[1]);
+			if (B) {
+				print('已读取并加载B.json');
+			}
+			else {
+				print('B.json读取失败');
+				flag = false;
+			}
+			let C = await RequestUrl('./source/C.json', testFlag[2]);
+			if (C) {
+				print('已读取并加载C.json');
+			}
+			else {
+				print('C.json读取失败');
+				flag = false;
+			}
+		}
+		else {
+			print('A.json读取失败');
+			flag = false;
+		}
+		return flag ? '【初始化完毕】' : '【初始化失败】';
+	}
+
+	let testFlag = [//依次注释，观察运行结果
+		// [1, 1, 1],
+		// [1, 1, 0],
+		[1, 1, -1],
+		[1, 0, 1],
+		[1, 0, 0],
+		[1, 0, -1],
+		[0, 1, 1],
+		[-1, 1, 1],
+	][0];
+	let rst = Init(testFlag);
+	rst.then((val) => { print(val) }).catch((err) => print(err))
+</script>

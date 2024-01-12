@@ -1,0 +1,38 @@
+<body style="color:#DDDDDD;background-color: #222222;"></body>
+
+
+
+<script src="./EasyPrint.js"></script>
+<!-- <script>print = console.log;</script> -->
+<script>
+	new Promise((resolve) => {
+
+		setTimeout(function () {
+			print();
+			print("1级输出");
+			resolve("1级结束");
+		}, 700);
+	}).then((val) => {
+		let p = new Promise((resolve) => {
+			setTimeout(function () {
+				print(val);
+				print();
+				print("2级输出");
+				resolve("2级结束");
+			}, 600);
+		});
+		return p;//注释这一条语句将会使下一个then提早执行
+	}).then((val) => {
+		let p = new Promise((resolve) => {
+			setTimeout(function () {
+				print(val);
+				print();
+				print("3级输出");
+				resolve("3级结束");
+			}, 500);
+		});
+		return p;//注释这一条语句将导致下一个then提早执行，并且接不到参数
+	}).then((val) => {
+		print(val);
+	})
+</script>
