@@ -1,5 +1,10 @@
-
-$\Huge \color{Orange}快\ \color{Red}来\ \color{Blue}{品}\ \color{Goldenrod}shi\ \color{LimeGreen}!$
+<font size=7 face="cursive">
+<font color=#FF8800>快</font>
+<font color=#FF0000>来</font>
+<font color=#0000FF>品</font>
+<font color=#FF00FF>shi</font>
+<font color=#44FF44>！</font>
+</font>
 
 ***
 # 辛路历程：

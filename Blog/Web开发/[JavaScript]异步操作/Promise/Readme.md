@@ -36,9 +36,10 @@
 1. ``Promise``接受一个执行函数，请类比于创建线程
 2. ``Promise``创建后立即生效，有如脱缰野马
 3. ``Promise``中调用的``resolve``和``reject``并不会立即调用对应的函数，或者说，“可以晚点”
-4. ``.then``和``.catch``接受一个函数，为``Promise``绑上对应的回调函数。``.then``对应``resolve``，而``.catch``对应``reject``，除此之外``.catch``还能捕获``Promise``中扔出来的异常(作为兜底)
-5. ``.then``和``.catch``接受的函数，其返回值将会被装进新的``Promise``对象并作为返回，以形成``Promise``链
-6. ``.then``和``.catch``可为一个``Promise``多次绑定回调(无论``Promise``是否完成敲定)，且不会覆盖前一次的绑定
+4. ``Promise``内部只要调用``resolve``、``reject``或是抛出异常便会立即敲定，且后续继续调用``resolve``、``reject``或是抛出异常都不会影响它的敲定状态以及敲定结果
+5. ``.then``和``.catch``接受一个函数，为``Promise``绑上对应的回调函数。``.then``对应``resolve``，而``.catch``对应``reject``，除此之外``.catch``还能捕获``Promise``中扔出来的异常(作为兜底)
+6. ``.then``和``.catch``接受的函数，其返回值将会被装进新的``Promise``对象并作为返回，以形成``Promise``链
+7. ``.then``和``.catch``可为一个``Promise``多次绑定回调(无论``Promise``是否完成敲定)，且不会覆盖前一次的绑定
 
 <br>
 <br>
