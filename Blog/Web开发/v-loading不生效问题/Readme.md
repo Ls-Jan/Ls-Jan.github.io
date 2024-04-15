@@ -1,3 +1,19 @@
+>【新增：2024/1/18】
+>除了本例的中通过``app.directive``注册指令的方式外，还有另一种方法，使用``app.use``的方式安装插件
+>```js
+>import ElementPlus from 'element-plus'
+>app.use(ElementPlus)
+>```
+>``app.directive``：[https://cn.vuejs.org/api/application.html#app-directive](https://cn.vuejs.org/api/application.html#app-directive)
+>``app.use``：[https://cn.vuejs.org/api/application.html#app-use](https://cn.vuejs.org/api/application.html#app-use)
+>
+> 上面两个对``app``的操作都是全局性的。
+
+<br>
+
+***
+
+
 <font size=7 face="cursive">
 <font color=#FF8800>快</font>
 <font color=#FF0000>来</font>

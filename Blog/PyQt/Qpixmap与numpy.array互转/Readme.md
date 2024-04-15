@@ -43,7 +43,7 @@ def ToPixmap_1(arr):#arr对应四通道图片。额外使用PIL.Image模块
 def ToPixmap_2(arr):#arr对应四通道图片。不使用PIL.Image模块
     #https://blog.csdn.net/comedate/article/details/121259033
     #https://blog.csdn.net/weixin_44431795/article/details/122016214
-    arr=cv2.cvtColor(arr,cv2.COLOR_RGBA2BGRA)
+    # arr=cv2.cvtColor(arr,cv2.COLOR_RGBA2BGRA)
     img=QImage(arr.data, arr.shape[1], arr.shape[0], arr.shape[1]*4, QImage.Format_RGBA8888)
     return QPixmap(img)
 
