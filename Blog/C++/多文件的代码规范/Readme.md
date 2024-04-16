@@ -620,8 +620,7 @@ void Print_Enter(int count){
 - IEEE754浮点数转换工具：[https://www.h-schmidt.net/FloatConverter/IEEE754.html](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
 - printf_s格式化输出：[[MSDN]https://learn.microsoft.com/zh-cn/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-170#type-field-characters](https://learn.microsoft.com/zh-cn/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-170#type-field-characters)
 ***
-以上出现的代码上传至github：[https://github.com/Ls-Jan/CPP_Grammar/tree/main](https://github.com/Ls-Jan/CPP_Grammar/tree/main)
-未经本人同意不得私自转载，本文章发布于CSDN：[https://blog.csdn.net/weixin_44733774/article/details/134163900](https://blog.csdn.net/weixin_44733774/article/details/134163900)
+以上出现的代码已上传至github：[https://github.com/Ls-Jan/CPP_Grammar/tree/main](https://github.com/Ls-Jan/CPP_Grammar/tree/main)
 
 
 
