@@ -19,13 +19,16 @@
 - 一类是复杂型控件，由``subControlRect``和``drawComplexControl``控制，例如``QScrollBar``等；
 - 其余是大量数不清的破坑，例如``QSpinBox``、``QComboBox``等，让人感受到藕断丝连的美，人话就是``QStyle``概念混乱，直到代码运行前，你完全无法预知某个Qt原生控件到底需要重写``QProxyStyle``的哪些函数(而且有些绘制甚至是``QStyle``无法约束的)，当然，你也可以慢慢翻阅官方手册：[Member Type Documentation-QStyle](https://doc.qt.io/qt-6/qstyle.html#ComplexControl-enum)
 
+关于``QStyle``的更多详细说明可参考官方文档：[Styles and Style Aware Widgets](https://doc.qt.io/qt-6/style-reference.html)，这里附上对应的机翻内容：[样式和样式感知小部件](https://runebook.dev/zh/docs/qt/style-reference)
+
+<br>
 <br>
 
 ### 简单型控件的重绘(QCheckBox)
-跳转至：[QCheckBox重绘](../QCheckBox重绘复选框/Readme.md)
+跳转至：[QCheckBox重绘](./QCheckBox重绘复选框/Readme.md)
 
 ### 复杂型控件的重绘(QScrollBar)
-跳转至：[QScrollBar重绘](../QScrollBar去除箭头/Readme.md)
+跳转至：[QScrollBar重绘](./QScrollBar去除箭头/Readme.md)
 
 ### 检测``QProxyStyle``中被调用的函数
 实在是疲于踩坑，此处写下一个Python脚本专门抓出``QProxyStyle``中的那些被调用的函数，可能没什么用，但至少作为参考。
@@ -95,3 +98,11 @@ if True:
 
 ![Preview-1](./Preview-1.png)
 ![Preview-2](./Preview-2.png)
+
+
+
+# 其他参考：
+[Qt 自定义组件风格说明（QStyle和paintEvent）](https://www.cnblogs.com/whwywzhj/p/13542125.html)
+[Qt 自定义QStyle——实现QProgressBar自定义样式](https://www.cnblogs.com/During/p/13337945.html)
+[QStyle介绍](https://zhuanlan.zhihu.com/p/648198611)
+[QStyle Functions 样式函数（五）](https://www.cnblogs.com/svenzhang9527/p/13922809.html)

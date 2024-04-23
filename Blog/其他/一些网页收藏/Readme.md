@@ -1,6 +1,3 @@
-- QTreeWidget详细使用方法：往单元格插入控件、处理点击事件：[https://blog.csdn.net/weixin_43961107/article/details/108872928](https://blog.csdn.net/weixin_43961107/article/details/108872928)
-
-- Qt鼠标悬停Hover的相关设置：[https://qt.0voice.com/?id=4346](https://qt.0voice.com/?id=4346)
 
 - 修改VSCode缩进-使用Tab缩进而不是空格：[https://www.zhihu.com/question/447015654](https://www.zhihu.com/question/447015654)
 
@@ -11,5 +8,6 @@
 - C++反射机制的探讨(大佬的系列文章都需要反复消化)：[https://zhuanlan.zhihu.com/p/669358870](https://zhuanlan.zhihu.com/p/669358870)
 
 - Qt在线源码查看：[https://codebrowser.dev/](https://codebrowser.dev/)
+
 
 
