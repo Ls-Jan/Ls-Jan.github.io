@@ -1,3 +1,5 @@
+核心是对``add-line``和``sub-line``设置宽高为0：
+
 ```css
 	QScrollBar {
 		background: rgba(255, 255, 255, 5%);
@@ -26,6 +28,9 @@
 		background: rgba(0, 0, 0, 30%);
 	}
 ```
+
+
+# 简单示例
 
 ```py
 from PyQt5.QtCore import *
