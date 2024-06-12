@@ -15,7 +15,8 @@ QPainter有多种灵活的参数方式，包括但不限于：
 使用QPainter绘制：
 - 见官网文档形如``drawXXX``的函数，不赘述，[QPainter-Function](https://doc.qt.io/qt-6/qpainter.html#public-functions)
 - 复杂曲线，例如贝塞尔曲线等，对应``drawPath``，需使用``QPainterPath``；
-- 文本的绘制是以左下角为基准而不是左上角，小细节问题不大，绘制旋转文本建议是先移动画笔``QPainter.translate``然后再旋转``QPainter.rotate``最后才是绘制文本``QPainter.drawText(0,0,text)``；
+- 文本的绘制是以左下角为基准而不是左上角，而绘制图片是左上角为基准，小细节问题不大；
+- 绘制旋转文本建议是先移动画笔``QPainter.translate``然后再旋转``QPainter.rotate``最后才是绘制文本``QPainter.drawText(0,0,text)``；
 
 
 <br>
@@ -39,10 +40,9 @@ class Test(QLabel):
 	def __init__(self):
 		super().__init__()
 	def paintEvent(self,event):
-		x,y=100,100
+		x,y=200,200
 		ptr=QPainter(self)
-		ptr.translate(100,100)
-		ptr.translate(100,100)
+		ptr.translate(x,y)
 		ptr.setBrush(QColor(255,0,0))
 		ptr.drawText(0,0,"AAAAA")
 		ptr.rotate(90)
@@ -50,6 +50,7 @@ class Test(QLabel):
 		ptr.rotate(90)
 		ptr.drawText(0,0,"CCCCC")
 		ptr.rotate(90)
+		# ptr.translate(100,100)
 		ptr.drawText(0,0,"DDDDD")
 
 if True:
@@ -57,7 +58,7 @@ if True:
 
 	lb=Test()
 	lb.show()
-	lb.resize(1000,600)
+	lb.resize(500,400)
 
 	exit(app.exec())
 ```
@@ -68,7 +69,7 @@ if True:
 # 参考：
 - ``setCompositionMode``参数说明：[QPainter::CompositionMode](https://doc.qt.io/qt-6/qpainter.html#CompositionMode-enum)
 - 贝塞尔曲线：[贝塞尔曲线|公孙二狗](https://qtdebug.com/qtbook-paint-bezier/)
-
+- ``QPainter``类：[QPainter-Function](https://doc.qt.io/qt-6/qpainter.html#public-functions)
 
 
 
