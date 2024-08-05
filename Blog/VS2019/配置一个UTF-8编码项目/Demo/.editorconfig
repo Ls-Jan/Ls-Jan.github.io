@@ -1,0 +1,5 @@
+# Rules in this file were initially inferred by Visual Studio IntelliCode from the F:\Github_Repository\Web\Ls-Jan.github.io\Blog\VS2019\配置一个UTF-8编码项目\Demo codebase based on best match to current usage at 2024/8/3
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+[*]
+charset = utf-8                     # 文件编码字符集为 UTF-8

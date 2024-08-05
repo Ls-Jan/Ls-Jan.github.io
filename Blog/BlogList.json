@@ -1,5 +1,1862 @@
 [
     {
+        "name": "./Python/使用ctypes调用windows的API/Readme.md",
+        "cTime": 1720619097245.3152,
+        "mTime": 1722801382645.7449,
+        "struct": {
+            "PyQt拦截窗口DPI变化消息": {
+                "Pict_运行结果-1.png": "",
+                "Pict_运行结果-2.png": "",
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Python/使用ctypes调用windows的API/PyQt拦截窗口DPI变化消息/Readme.md",
+        "cTime": 1722787668858.0645,
+        "mTime": 1722801378243.8513,
+        "struct": {
+            "Pict_运行结果-1.png": "",
+            "Pict_运行结果-2.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/Readme.md",
+        "cTime": 1719794228919.5032,
+        "mTime": 1722800578922.167,
+        "struct": {
+            "CMD命令": {
+                "SET变量判空": {
+                    "Readme.md": ""
+                },
+                "个人BAT脚本": {
+                    "source": {
+                        "BAT": {
+                            "bvue.cmd": "",
+                            "cmds.cmd": "",
+                            "cvue.cmd": "",
+                            "exp.cmd": "",
+                            "npm_marked.cmd": "",
+                            "rvue.cmd": "",
+                            "sttp.cmd": ""
+                        },
+                        "pict": {
+                            "cmds.png": ""
+                        }
+                    },
+                    "Readme.md": ""
+                },
+                "在FOR中的SET变量失效问题": {
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "[C++]多线程": {
+                "Readme.md": ""
+            },
+            "[C++]对进程注入钩子": {
+                "Readme.md": ""
+            },
+            "[C++]获取进程父子关系(进程树)+终止目标进程及其子进程": {
+                "Readme.md": ""
+            },
+            "[Python]修改文件目录时间(创建-访问-修改)": {
+                "Readme.md": ""
+            },
+            "[Python]钩子PyHook3.HookManager的坑": {
+                "pict": {
+                    "1.png": ""
+                },
+                "Readme.md": ""
+            },
+            "屏幕分辨率以及DPI": {
+                "1、DPI简述": {
+                    "Pict_副屏1280x720.png": "",
+                    "Pict_副屏1600x900.png": "",
+                    "Pict_副屏1920x1080.png": "",
+                    "Readme.md": ""
+                },
+                "2、高DPI场景": {
+                    "Pict_DPI虚拟化.png": "",
+                    "Pict_PROCESS_DPI_AWARENESS注解.png": "",
+                    "Readme.md": ""
+                },
+                "3、DPI感知": {
+                    "DPI感知简单总结.simp": "",
+                    "Pict_DPI感知简单总结.png": "",
+                    "Pict_DPI感知类型.png": "",
+                    "Pict_DPI感知设置.png": "",
+                    "Pict_GetDpiForWindow文档.png": "",
+                    "Readme.md": ""
+                },
+                "4、虚拟屏幕与物理屏幕": {
+                    "Pict_PhysicalToLogicalPoint备注.png": "",
+                    "Readme.md": ""
+                },
+                "5、DPI设置引发的问题": {
+                    "Pict_设置屏幕DPI.png": "",
+                    "Pict_运行结果_截图.png": "",
+                    "Pict_运行结果_窗口DPI.png": "",
+                    "Pitc_运行结果_屏拍-上1.png": "",
+                    "Pitc_运行结果_屏拍-上2.png": "",
+                    "Pitc_运行结果_屏拍-下1.png": "",
+                    "Pitc_运行结果_屏拍-下2.png": "",
+                    "Readme.md": ""
+                },
+                "6、部分API简单说明": {
+                    "实验测试代码": {
+                        "TestCode": {
+                            ".vs": {
+                                "TestCode": {
+                                    "v16": {
+                                        ".suo": ""
+                                    }
+                                }
+                            },
+                            "Debug": {
+                                "TestCode.exe": "",
+                                "TestCode.pdb": ""
+                            },
+                            "TestCode": {
+                                "Debug": {
+                                    "TestCode.tlog": {
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": "",
+                                        "TestCode.lastbuildstate": ""
+                                    },
+                                    "Main.obj": "",
+                                    "TestCode.exe.recipe": "",
+                                    "TestCode.ilk": "",
+                                    "TestCode.log": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": "",
+                                    "XJ_AlignPrint.obj": ""
+                                },
+                                "Functions.h": "",
+                                "Main.cpp": "",
+                                "TestCode.vcxproj": "",
+                                "TestCode.vcxproj.filters": "",
+                                "TestCode.vcxproj.user": "",
+                                "XJ_AlignPrint.cpp": "",
+                                "XJ_FormatString.h": ""
+                            },
+                            "TestCode.sln": ""
+                        },
+                        "Pict_屏幕位置.png": "",
+                        "Pict_系统版本.png": "",
+                        "Readme.md": ""
+                    },
+                    "Readme.md": ""
+                },
+                "Pict_win各版本发布时间.png": "",
+                "Readme.md": ""
+            },
+            "控制台窗口": {
+                "重定向输入输出": {
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "编码问题": {
+                "字符集": {
+                    "Readme.md": ""
+                },
+                "程序乱码": {
+                    "控制台输出乱码": {
+                        "what_the_hell_it_is": {
+                            ".vs": {
+                                "what_the_hell_it_is": {
+                                    "v16": {
+                                        ".suo": "",
+                                        "Solution.VC.db": ""
+                                    }
+                                }
+                            },
+                            "1.CodePageError": {
+                                "1.CodePageError.vcxproj": "",
+                                "1.CodePageError.vcxproj.filters": "",
+                                "1.CodePageError.vcxproj.user": "",
+                                "Main_1.cpp": ""
+                            },
+                            "2.PrintError": {
+                                "Debug": {
+                                    "2.PrintError.tlog": {
+                                        "2.PrintError.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "2.PrintError.exe.recipe": "",
+                                    "2.PrintError.ilk": "",
+                                    "2.PrintError.log": "",
+                                    "Main_2.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "2.PrintError.vcxproj": "",
+                                "2.PrintError.vcxproj.filters": "",
+                                "2.PrintError.vcxproj.user": "",
+                                "Main_2.cpp": ""
+                            },
+                            "3.HexCode": {
+                                "Debug": {
+                                    "3.HexCode.tlog": {
+                                        "3.HexCode.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "3.HexCode.exe.recipe": "",
+                                    "3.HexCode.ilk": "",
+                                    "3.HexCode.log": "",
+                                    "Main_3.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "3.HexCode.vcxproj": "",
+                                "3.HexCode.vcxproj.filters": "",
+                                "3.HexCode.vcxproj.user": "",
+                                "Main_3.cpp": ""
+                            },
+                            "4.SetProcessCodePage": {
+                                "Debug": {
+                                    "4.SetPro.6f80dce9.tlog": {
+                                        "4.SetProcessCodePage.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "4.SetProcessCodePage.exe.recipe": "",
+                                    "4.SetProcessCodePage.ilk": "",
+                                    "4.SetProcessCodePage.log": "",
+                                    "Main_4.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "4.SetProcessCodePage.vcxproj": "",
+                                "4.SetProcessCodePage.vcxproj.filters": "",
+                                "4.SetProcessCodePage.vcxproj.user": "",
+                                "Main_4.cpp": ""
+                            },
+                            "5.UseOtherOutput": {
+                                "Debug": {
+                                    "5.UseOtherOutput.tlog": {
+                                        "5.UseOtherOutput.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "5.UseOtherOutput.exe.recipe": "",
+                                    "5.UseOtherOutput.ilk": "",
+                                    "5.UseOtherOutput.log": "",
+                                    "Main_5.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "5.UseOtherOutput.vcxproj": "",
+                                "5.UseOtherOutput.vcxproj.filters": "",
+                                "5.UseOtherOutput.vcxproj.user": "",
+                                "Main_5.cpp": ""
+                            },
+                            "5.WirteFile": {
+                                "Debug": {
+                                    "5.WirteFile.tlog": {
+                                        "5.WirteFile.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "5.WirteFile.exe.recipe": "",
+                                    "5.WirteFile.ilk": "",
+                                    "5.WirteFile.log": "",
+                                    "Main_5.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "5.WirteFile.vcxproj": "",
+                                "5.WirteFile.vcxproj.filters": "",
+                                "5.WirteFile.vcxproj.user": "",
+                                "Main_5.cpp": ""
+                            },
+                            "6.wprintf_s": {
+                                "Debug": {
+                                    "6.wprintf_s.tlog": {
+                                        "6.wprintf_s.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "6.wprintf_s.exe.recipe": "",
+                                    "6.wprintf_s.ilk": "",
+                                    "6.wprintf_s.log": "",
+                                    "Main_6.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "6.wprintf_s.vcxproj": "",
+                                "6.wprintf_s.vcxproj.filters": "",
+                                "6.wprintf_s.vcxproj.user": "",
+                                "Main_6.cpp": ""
+                            },
+                            "7.printf_s": {
+                                "Debug": {
+                                    "7.printf_s.tlog": {
+                                        "7.printf_s.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "7.printf_s.exe.recipe": "",
+                                    "7.printf_s.ilk": "",
+                                    "7.printf_s.log": "",
+                                    "Main_7.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "7.printf_s.vcxproj": "",
+                                "7.printf_s.vcxproj.filters": "",
+                                "7.printf_s.vcxproj.user": "",
+                                "Main_7.cpp": ""
+                            },
+                            "8.CodePageMix": {
+                                "Debug": {
+                                    "8.CodePageMix.tlog": {
+                                        "8.CodePageMix.lastbuildstate": "",
+                                        "CL.command.1.tlog": "",
+                                        "CL.read.1.tlog": "",
+                                        "CL.write.1.tlog": "",
+                                        "link.command.1.tlog": "",
+                                        "link.read.1.tlog": "",
+                                        "link.write.1.tlog": ""
+                                    },
+                                    "8.CodePageMix.exe.recipe": "",
+                                    "8.CodePageMix.ilk": "",
+                                    "8.CodePageMix.log": "",
+                                    "Main_8.obj": "",
+                                    "vc142.idb": "",
+                                    "vc142.pdb": ""
+                                },
+                                "8.CodePageMix.vcxproj": "",
+                                "8.CodePageMix.vcxproj.filters": "",
+                                "8.CodePageMix.vcxproj.user": "",
+                                "Main_8.cpp": ""
+                            },
+                            "Debug": {
+                                "2.PrintError.exe": "",
+                                "2.PrintError.pdb": "",
+                                "3.HexCode.exe": "",
+                                "3.HexCode.pdb": "",
+                                "4.SetProcessCodePage.exe": "",
+                                "4.SetProcessCodePage.pdb": "",
+                                "5.UseOtherOutput.exe": "",
+                                "5.UseOtherOutput.pdb": "",
+                                "5.WirteFile.exe": "",
+                                "5.WirteFile.pdb": "",
+                                "6.wprintf_s.exe": "",
+                                "6.wprintf_s.pdb": "",
+                                "7.printf_s.exe": "",
+                                "7.printf_s.pdb": "",
+                                "8.CodePageMix.exe": "",
+                                "8.CodePageMix.pdb": "",
+                                "CodePageError.exe": "",
+                                "CodePageError.pdb": "",
+                                "printf_s.exe": "",
+                                "printf_s.pdb": ""
+                            },
+                            "what_the_hell_it_is.sln": ""
+                        },
+                        "Pict_2_编码错误.png": "",
+                        "Pict_2_配置编译器参数.png": "",
+                        "Pict_3_使用字符编码替代字串.png": "",
+                        "Pict_3_输出乱码.png": "",
+                        "Pict_4_设置程序字符集.png": "",
+                        "Pict_5_C区域设置下的printf_s.png": "",
+                        "Pict_5_使用WriteFile进行输出.png": "",
+                        "Pict_5_各种区域设置下的不同输出代码页的printf_s.png": "",
+                        "Pict_5_探究wprintf_s.png": "",
+                        "Readme.md": ""
+                    },
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/Readme.md",
+        "cTime": 1719794767429.2725,
+        "mTime": 1722800578922.167,
+        "struct": {
+            "1、DPI简述": {
+                "Pict_副屏1280x720.png": "",
+                "Pict_副屏1600x900.png": "",
+                "Pict_副屏1920x1080.png": "",
+                "Readme.md": ""
+            },
+            "2、高DPI场景": {
+                "Pict_DPI虚拟化.png": "",
+                "Pict_PROCESS_DPI_AWARENESS注解.png": "",
+                "Readme.md": ""
+            },
+            "3、DPI感知": {
+                "DPI感知简单总结.simp": "",
+                "Pict_DPI感知简单总结.png": "",
+                "Pict_DPI感知类型.png": "",
+                "Pict_DPI感知设置.png": "",
+                "Pict_GetDpiForWindow文档.png": "",
+                "Readme.md": ""
+            },
+            "4、虚拟屏幕与物理屏幕": {
+                "Pict_PhysicalToLogicalPoint备注.png": "",
+                "Readme.md": ""
+            },
+            "5、DPI设置引发的问题": {
+                "Pict_设置屏幕DPI.png": "",
+                "Pict_运行结果_截图.png": "",
+                "Pict_运行结果_窗口DPI.png": "",
+                "Pitc_运行结果_屏拍-上1.png": "",
+                "Pitc_运行结果_屏拍-上2.png": "",
+                "Pitc_运行结果_屏拍-下1.png": "",
+                "Pitc_运行结果_屏拍-下2.png": "",
+                "Readme.md": ""
+            },
+            "6、部分API简单说明": {
+                "实验测试代码": {
+                    "TestCode": {
+                        ".vs": {
+                            "TestCode": {
+                                "v16": {
+                                    ".suo": ""
+                                }
+                            }
+                        },
+                        "Debug": {
+                            "TestCode.exe": "",
+                            "TestCode.pdb": ""
+                        },
+                        "TestCode": {
+                            "Debug": {
+                                "TestCode.tlog": {
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": "",
+                                    "TestCode.lastbuildstate": ""
+                                },
+                                "Main.obj": "",
+                                "TestCode.exe.recipe": "",
+                                "TestCode.ilk": "",
+                                "TestCode.log": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": "",
+                                "XJ_AlignPrint.obj": ""
+                            },
+                            "Functions.h": "",
+                            "Main.cpp": "",
+                            "TestCode.vcxproj": "",
+                            "TestCode.vcxproj.filters": "",
+                            "TestCode.vcxproj.user": "",
+                            "XJ_AlignPrint.cpp": "",
+                            "XJ_FormatString.h": ""
+                        },
+                        "TestCode.sln": ""
+                    },
+                    "Pict_屏幕位置.png": "",
+                    "Pict_系统版本.png": "",
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "Pict_win各版本发布时间.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/5、DPI设置引发的问题/Readme.md",
+        "cTime": 1720296700119.0806,
+        "mTime": 1722800578922.167,
+        "struct": {
+            "Pict_设置屏幕DPI.png": "",
+            "Pict_运行结果_截图.png": "",
+            "Pict_运行结果_窗口DPI.png": "",
+            "Pitc_运行结果_屏拍-上1.png": "",
+            "Pitc_运行结果_屏拍-上2.png": "",
+            "Pitc_运行结果_屏拍-下1.png": "",
+            "Pitc_运行结果_屏拍-下2.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/2、高DPI场景/Readme.md",
+        "cTime": 1720112381269.4995,
+        "mTime": 1722791209391.1318,
+        "struct": {
+            "Pict_DPI虚拟化.png": "",
+            "Pict_PROCESS_DPI_AWARENESS注解.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/[C++]对进程注入钩子/Readme.md",
+        "cTime": 1721613835381.261,
+        "mTime": 1722791027938.8206,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/编码问题/Readme.md",
+        "cTime": 1721616280283.4045,
+        "mTime": 1722790429916.902,
+        "struct": {
+            "字符集": {
+                "Readme.md": ""
+            },
+            "程序乱码": {
+                "控制台输出乱码": {
+                    "what_the_hell_it_is": {
+                        ".vs": {
+                            "what_the_hell_it_is": {
+                                "v16": {
+                                    ".suo": "",
+                                    "Solution.VC.db": ""
+                                }
+                            }
+                        },
+                        "1.CodePageError": {
+                            "1.CodePageError.vcxproj": "",
+                            "1.CodePageError.vcxproj.filters": "",
+                            "1.CodePageError.vcxproj.user": "",
+                            "Main_1.cpp": ""
+                        },
+                        "2.PrintError": {
+                            "Debug": {
+                                "2.PrintError.tlog": {
+                                    "2.PrintError.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "2.PrintError.exe.recipe": "",
+                                "2.PrintError.ilk": "",
+                                "2.PrintError.log": "",
+                                "Main_2.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "2.PrintError.vcxproj": "",
+                            "2.PrintError.vcxproj.filters": "",
+                            "2.PrintError.vcxproj.user": "",
+                            "Main_2.cpp": ""
+                        },
+                        "3.HexCode": {
+                            "Debug": {
+                                "3.HexCode.tlog": {
+                                    "3.HexCode.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "3.HexCode.exe.recipe": "",
+                                "3.HexCode.ilk": "",
+                                "3.HexCode.log": "",
+                                "Main_3.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "3.HexCode.vcxproj": "",
+                            "3.HexCode.vcxproj.filters": "",
+                            "3.HexCode.vcxproj.user": "",
+                            "Main_3.cpp": ""
+                        },
+                        "4.SetProcessCodePage": {
+                            "Debug": {
+                                "4.SetPro.6f80dce9.tlog": {
+                                    "4.SetProcessCodePage.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "4.SetProcessCodePage.exe.recipe": "",
+                                "4.SetProcessCodePage.ilk": "",
+                                "4.SetProcessCodePage.log": "",
+                                "Main_4.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "4.SetProcessCodePage.vcxproj": "",
+                            "4.SetProcessCodePage.vcxproj.filters": "",
+                            "4.SetProcessCodePage.vcxproj.user": "",
+                            "Main_4.cpp": ""
+                        },
+                        "5.UseOtherOutput": {
+                            "Debug": {
+                                "5.UseOtherOutput.tlog": {
+                                    "5.UseOtherOutput.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "5.UseOtherOutput.exe.recipe": "",
+                                "5.UseOtherOutput.ilk": "",
+                                "5.UseOtherOutput.log": "",
+                                "Main_5.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "5.UseOtherOutput.vcxproj": "",
+                            "5.UseOtherOutput.vcxproj.filters": "",
+                            "5.UseOtherOutput.vcxproj.user": "",
+                            "Main_5.cpp": ""
+                        },
+                        "5.WirteFile": {
+                            "Debug": {
+                                "5.WirteFile.tlog": {
+                                    "5.WirteFile.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "5.WirteFile.exe.recipe": "",
+                                "5.WirteFile.ilk": "",
+                                "5.WirteFile.log": "",
+                                "Main_5.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "5.WirteFile.vcxproj": "",
+                            "5.WirteFile.vcxproj.filters": "",
+                            "5.WirteFile.vcxproj.user": "",
+                            "Main_5.cpp": ""
+                        },
+                        "6.wprintf_s": {
+                            "Debug": {
+                                "6.wprintf_s.tlog": {
+                                    "6.wprintf_s.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "6.wprintf_s.exe.recipe": "",
+                                "6.wprintf_s.ilk": "",
+                                "6.wprintf_s.log": "",
+                                "Main_6.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "6.wprintf_s.vcxproj": "",
+                            "6.wprintf_s.vcxproj.filters": "",
+                            "6.wprintf_s.vcxproj.user": "",
+                            "Main_6.cpp": ""
+                        },
+                        "7.printf_s": {
+                            "Debug": {
+                                "7.printf_s.tlog": {
+                                    "7.printf_s.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "7.printf_s.exe.recipe": "",
+                                "7.printf_s.ilk": "",
+                                "7.printf_s.log": "",
+                                "Main_7.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "7.printf_s.vcxproj": "",
+                            "7.printf_s.vcxproj.filters": "",
+                            "7.printf_s.vcxproj.user": "",
+                            "Main_7.cpp": ""
+                        },
+                        "8.CodePageMix": {
+                            "Debug": {
+                                "8.CodePageMix.tlog": {
+                                    "8.CodePageMix.lastbuildstate": "",
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": ""
+                                },
+                                "8.CodePageMix.exe.recipe": "",
+                                "8.CodePageMix.ilk": "",
+                                "8.CodePageMix.log": "",
+                                "Main_8.obj": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "8.CodePageMix.vcxproj": "",
+                            "8.CodePageMix.vcxproj.filters": "",
+                            "8.CodePageMix.vcxproj.user": "",
+                            "Main_8.cpp": ""
+                        },
+                        "Debug": {
+                            "2.PrintError.exe": "",
+                            "2.PrintError.pdb": "",
+                            "3.HexCode.exe": "",
+                            "3.HexCode.pdb": "",
+                            "4.SetProcessCodePage.exe": "",
+                            "4.SetProcessCodePage.pdb": "",
+                            "5.UseOtherOutput.exe": "",
+                            "5.UseOtherOutput.pdb": "",
+                            "5.WirteFile.exe": "",
+                            "5.WirteFile.pdb": "",
+                            "6.wprintf_s.exe": "",
+                            "6.wprintf_s.pdb": "",
+                            "7.printf_s.exe": "",
+                            "7.printf_s.pdb": "",
+                            "8.CodePageMix.exe": "",
+                            "8.CodePageMix.pdb": "",
+                            "CodePageError.exe": "",
+                            "CodePageError.pdb": "",
+                            "printf_s.exe": "",
+                            "printf_s.pdb": ""
+                        },
+                        "what_the_hell_it_is.sln": ""
+                    },
+                    "Pict_2_编码错误.png": "",
+                    "Pict_2_配置编译器参数.png": "",
+                    "Pict_3_使用字符编码替代字串.png": "",
+                    "Pict_3_输出乱码.png": "",
+                    "Pict_4_设置程序字符集.png": "",
+                    "Pict_5_C区域设置下的printf_s.png": "",
+                    "Pict_5_使用WriteFile进行输出.png": "",
+                    "Pict_5_各种区域设置下的不同输出代码页的printf_s.png": "",
+                    "Pict_5_探究wprintf_s.png": "",
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/6、部分API简单说明/Readme.md",
+        "cTime": 1720123311572.5327,
+        "mTime": 1722761599559.0,
+        "struct": {
+            "实验测试代码": {
+                "TestCode": {
+                    ".vs": {
+                        "TestCode": {
+                            "v16": {
+                                ".suo": ""
+                            }
+                        }
+                    },
+                    "Debug": {
+                        "TestCode.exe": "",
+                        "TestCode.pdb": ""
+                    },
+                    "TestCode": {
+                        "Debug": {
+                            "TestCode.tlog": {
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": "",
+                                "TestCode.lastbuildstate": ""
+                            },
+                            "Main.obj": "",
+                            "TestCode.exe.recipe": "",
+                            "TestCode.ilk": "",
+                            "TestCode.log": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": "",
+                            "XJ_AlignPrint.obj": ""
+                        },
+                        "Functions.h": "",
+                        "Main.cpp": "",
+                        "TestCode.vcxproj": "",
+                        "TestCode.vcxproj.filters": "",
+                        "TestCode.vcxproj.user": "",
+                        "XJ_AlignPrint.cpp": "",
+                        "XJ_FormatString.h": ""
+                    },
+                    "TestCode.sln": ""
+                },
+                "Pict_屏幕位置.png": "",
+                "Pict_系统版本.png": "",
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/6、部分API简单说明/实验测试代码/Readme.md",
+        "cTime": 1720120975899.5447,
+        "mTime": 1722761599559.0,
+        "struct": {
+            "TestCode": {
+                ".vs": {
+                    "TestCode": {
+                        "v16": {
+                            ".suo": ""
+                        }
+                    }
+                },
+                "Debug": {
+                    "TestCode.exe": "",
+                    "TestCode.pdb": ""
+                },
+                "TestCode": {
+                    "Debug": {
+                        "TestCode.tlog": {
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": "",
+                            "TestCode.lastbuildstate": ""
+                        },
+                        "Main.obj": "",
+                        "TestCode.exe.recipe": "",
+                        "TestCode.ilk": "",
+                        "TestCode.log": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": "",
+                        "XJ_AlignPrint.obj": ""
+                    },
+                    "Functions.h": "",
+                    "Main.cpp": "",
+                    "TestCode.vcxproj": "",
+                    "TestCode.vcxproj.filters": "",
+                    "TestCode.vcxproj.user": "",
+                    "XJ_AlignPrint.cpp": "",
+                    "XJ_FormatString.h": ""
+                },
+                "TestCode.sln": ""
+            },
+            "Pict_屏幕位置.png": "",
+            "Pict_系统版本.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/4、虚拟屏幕与物理屏幕/Readme.md",
+        "cTime": 1720104787660.035,
+        "mTime": 1722753884651.9653,
+        "struct": {
+            "Pict_PhysicalToLogicalPoint备注.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/3、DPI感知/Readme.md",
+        "cTime": 1720249760229.7117,
+        "mTime": 1722753380318.5896,
+        "struct": {
+            "DPI感知简单总结.simp": "",
+            "Pict_DPI感知简单总结.png": "",
+            "Pict_DPI感知类型.png": "",
+            "Pict_DPI感知设置.png": "",
+            "Pict_GetDpiForWindow文档.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/屏幕分辨率以及DPI/1、DPI简述/Readme.md",
+        "cTime": 1720103079832.9443,
+        "mTime": 1722753144249.0847,
+        "struct": {
+            "Pict_副屏1280x720.png": "",
+            "Pict_副屏1600x900.png": "",
+            "Pict_副屏1920x1080.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/控制台窗口/Readme.md",
+        "cTime": 1721616743618.623,
+        "mTime": 1722752955855.414,
+        "struct": {
+            "重定向输入输出": {
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/控制台窗口/重定向输入输出/Readme.md",
+        "cTime": 1722520369775.417,
+        "mTime": 1722752955855.414,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./C++/Readme.md",
+        "cTime": 1703818210998.1785,
+        "mTime": 1722752801045.586,
+        "struct": {
+            "algorithm库部分函数介绍": {
+                "排序函数": {
+                    "Readme.md": ""
+                },
+                "查找函数": {
+                    "Demo": {
+                        ".vs": {
+                            "Demo": {
+                                "v16": {
+                                    ".suo": ""
+                                }
+                            }
+                        },
+                        "Debug": {
+                            "Search.exe": "",
+                            "Search.pdb": ""
+                        },
+                        "Search": {
+                            "Debug": {
+                                "Search.tlog": {
+                                    "CL.command.1.tlog": "",
+                                    "CL.read.1.tlog": "",
+                                    "CL.write.1.tlog": "",
+                                    "link.command.1.tlog": "",
+                                    "link.read.1.tlog": "",
+                                    "link.write.1.tlog": "",
+                                    "Search.lastbuildstate": ""
+                                },
+                                "Main.obj": "",
+                                "Search.exe.recipe": "",
+                                "Search.ilk": "",
+                                "Search.log": "",
+                                "vc142.idb": "",
+                                "vc142.pdb": ""
+                            },
+                            "Main.cpp": "",
+                            "Search.vcxproj": "",
+                            "Search.vcxproj.filters": "",
+                            "Search.vcxproj.user": ""
+                        },
+                        "运行结果": {
+                            "1.png": ""
+                        },
+                        "Demo.sln": ""
+                    },
+                    "Readme.md": ""
+                },
+                "Readme.md": ""
+            },
+            "API风格": {
+                "Readme.md": ""
+            },
+            "map下标操作[key]问题-需要有默认构造函数": {
+                "pict": {
+                    "1.png": "",
+                    "2.png": ""
+                },
+                "Readme.md": ""
+            },
+            "set数据插入问题": {
+                "pict": {
+                    "1.png": ""
+                },
+                "Readme.md": ""
+            },
+            "string字符串拼接问题": {
+                "Readme.md": ""
+            },
+            "三目运算符的另类用法": {
+                "Readme.md": ""
+            },
+            "个人函数库": {
+                "Readme.md": ""
+            },
+            "关于函数不定长参数的个人看法": {
+                "Pict_运行结果.png": "",
+                "Readme.md": ""
+            },
+            "动态链接库dll": {
+                "Readme.md": ""
+            },
+            "多文件的代码规范": {
+                "pict": {
+                    "2.1-1.png": "",
+                    "2.1-2.png": "",
+                    "2.1-3.png": "",
+                    "2.1-4.png": "",
+                    "2.1-5.png": "",
+                    "2.1-6.png": "",
+                    "2.2-1.png": "",
+                    "2.2-2.png": "",
+                    "2.2-3.png": "",
+                    "2.2-4.png": "",
+                    "2.2-5.png": "",
+                    "3.2-1.png": "",
+                    "4.2-1.png": "",
+                    "4.3-1.png": "",
+                    "5.1-1.png": "",
+                    "5.2-1.png": "",
+                    "5.3-1.png": "",
+                    "5.3-2.png": "",
+                    "6-1.png": ""
+                },
+                "Readme.md": ""
+            },
+            "多级排序表": {
+                "Demo": {
+                    ".vs": {
+                        "Demo": {
+                            "v16": {
+                                ".suo": ""
+                            }
+                        }
+                    },
+                    "Debug": {
+                        "ScoreList.exe": "",
+                        "ScoreList.pdb": ""
+                    },
+                    "ScoreList": {
+                        "Debug": {
+                            "ScoreList.tlog": {
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": "",
+                                "ScoreList.lastbuildstate": ""
+                            },
+                            "Declare.obj": "",
+                            "Main.obj": "",
+                            "ScoreList.Build.CppClean.log": "",
+                            "ScoreList.exe.recipe": "",
+                            "ScoreList.ilk": "",
+                            "ScoreList.log": "",
+                            "ScoreList.obj": "",
+                            "ScoreList.vcxproj.FileListAbsolute.txt": "",
+                            "ScoreList_AlgorithmSort.obj": "",
+                            "ScoreList_List.obj": "",
+                            "ScoreList_Set.obj": "",
+                            "ScoreList_Sort.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "Declare.cpp": "",
+                        "Declare.h": "",
+                        "Main.cpp": "",
+                        "ScoreList.vcxproj": "",
+                        "ScoreList.vcxproj.filters": "",
+                        "ScoreList.vcxproj.user": "",
+                        "ScoreList_List.cpp": "",
+                        "ScoreList_List.h": "",
+                        "ScoreList_Set.cpp": "",
+                        "ScoreList_Set.h": "",
+                        "ScoreList_Sort.cpp": "",
+                        "ScoreList_Sort.h": ""
+                    },
+                    "运行结果": {
+                        "1.png": ""
+                    },
+                    "Demo.sln": ""
+                },
+                "Readme.md": ""
+            },
+            "控制台清除当前行内容": {
+                "Readmd.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./C++/个人函数库/Readme.md",
+        "cTime": 1722749521647.4106,
+        "mTime": 1722752801045.586,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./C++/关于函数不定长参数的个人看法/Readme.md",
+        "cTime": 1721179943595.5735,
+        "mTime": 1722749295063.115,
+        "struct": {
+            "Pict_运行结果.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/编码问题/程序乱码/Readme.md",
+        "cTime": 1721960061009.235,
+        "mTime": 1722654575430.7917,
+        "struct": {
+            "控制台输出乱码": {
+                "what_the_hell_it_is": {
+                    ".vs": {
+                        "what_the_hell_it_is": {
+                            "v16": {
+                                ".suo": "",
+                                "Solution.VC.db": ""
+                            }
+                        }
+                    },
+                    "1.CodePageError": {
+                        "1.CodePageError.vcxproj": "",
+                        "1.CodePageError.vcxproj.filters": "",
+                        "1.CodePageError.vcxproj.user": "",
+                        "Main_1.cpp": ""
+                    },
+                    "2.PrintError": {
+                        "Debug": {
+                            "2.PrintError.tlog": {
+                                "2.PrintError.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "2.PrintError.exe.recipe": "",
+                            "2.PrintError.ilk": "",
+                            "2.PrintError.log": "",
+                            "Main_2.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "2.PrintError.vcxproj": "",
+                        "2.PrintError.vcxproj.filters": "",
+                        "2.PrintError.vcxproj.user": "",
+                        "Main_2.cpp": ""
+                    },
+                    "3.HexCode": {
+                        "Debug": {
+                            "3.HexCode.tlog": {
+                                "3.HexCode.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "3.HexCode.exe.recipe": "",
+                            "3.HexCode.ilk": "",
+                            "3.HexCode.log": "",
+                            "Main_3.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "3.HexCode.vcxproj": "",
+                        "3.HexCode.vcxproj.filters": "",
+                        "3.HexCode.vcxproj.user": "",
+                        "Main_3.cpp": ""
+                    },
+                    "4.SetProcessCodePage": {
+                        "Debug": {
+                            "4.SetPro.6f80dce9.tlog": {
+                                "4.SetProcessCodePage.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "4.SetProcessCodePage.exe.recipe": "",
+                            "4.SetProcessCodePage.ilk": "",
+                            "4.SetProcessCodePage.log": "",
+                            "Main_4.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "4.SetProcessCodePage.vcxproj": "",
+                        "4.SetProcessCodePage.vcxproj.filters": "",
+                        "4.SetProcessCodePage.vcxproj.user": "",
+                        "Main_4.cpp": ""
+                    },
+                    "5.UseOtherOutput": {
+                        "Debug": {
+                            "5.UseOtherOutput.tlog": {
+                                "5.UseOtherOutput.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "5.UseOtherOutput.exe.recipe": "",
+                            "5.UseOtherOutput.ilk": "",
+                            "5.UseOtherOutput.log": "",
+                            "Main_5.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "5.UseOtherOutput.vcxproj": "",
+                        "5.UseOtherOutput.vcxproj.filters": "",
+                        "5.UseOtherOutput.vcxproj.user": "",
+                        "Main_5.cpp": ""
+                    },
+                    "5.WirteFile": {
+                        "Debug": {
+                            "5.WirteFile.tlog": {
+                                "5.WirteFile.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "5.WirteFile.exe.recipe": "",
+                            "5.WirteFile.ilk": "",
+                            "5.WirteFile.log": "",
+                            "Main_5.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "5.WirteFile.vcxproj": "",
+                        "5.WirteFile.vcxproj.filters": "",
+                        "5.WirteFile.vcxproj.user": "",
+                        "Main_5.cpp": ""
+                    },
+                    "6.wprintf_s": {
+                        "Debug": {
+                            "6.wprintf_s.tlog": {
+                                "6.wprintf_s.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "6.wprintf_s.exe.recipe": "",
+                            "6.wprintf_s.ilk": "",
+                            "6.wprintf_s.log": "",
+                            "Main_6.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "6.wprintf_s.vcxproj": "",
+                        "6.wprintf_s.vcxproj.filters": "",
+                        "6.wprintf_s.vcxproj.user": "",
+                        "Main_6.cpp": ""
+                    },
+                    "7.printf_s": {
+                        "Debug": {
+                            "7.printf_s.tlog": {
+                                "7.printf_s.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "7.printf_s.exe.recipe": "",
+                            "7.printf_s.ilk": "",
+                            "7.printf_s.log": "",
+                            "Main_7.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "7.printf_s.vcxproj": "",
+                        "7.printf_s.vcxproj.filters": "",
+                        "7.printf_s.vcxproj.user": "",
+                        "Main_7.cpp": ""
+                    },
+                    "8.CodePageMix": {
+                        "Debug": {
+                            "8.CodePageMix.tlog": {
+                                "8.CodePageMix.lastbuildstate": "",
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": ""
+                            },
+                            "8.CodePageMix.exe.recipe": "",
+                            "8.CodePageMix.ilk": "",
+                            "8.CodePageMix.log": "",
+                            "Main_8.obj": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "8.CodePageMix.vcxproj": "",
+                        "8.CodePageMix.vcxproj.filters": "",
+                        "8.CodePageMix.vcxproj.user": "",
+                        "Main_8.cpp": ""
+                    },
+                    "Debug": {
+                        "2.PrintError.exe": "",
+                        "2.PrintError.pdb": "",
+                        "3.HexCode.exe": "",
+                        "3.HexCode.pdb": "",
+                        "4.SetProcessCodePage.exe": "",
+                        "4.SetProcessCodePage.pdb": "",
+                        "5.UseOtherOutput.exe": "",
+                        "5.UseOtherOutput.pdb": "",
+                        "5.WirteFile.exe": "",
+                        "5.WirteFile.pdb": "",
+                        "6.wprintf_s.exe": "",
+                        "6.wprintf_s.pdb": "",
+                        "7.printf_s.exe": "",
+                        "7.printf_s.pdb": "",
+                        "8.CodePageMix.exe": "",
+                        "8.CodePageMix.pdb": "",
+                        "CodePageError.exe": "",
+                        "CodePageError.pdb": "",
+                        "printf_s.exe": "",
+                        "printf_s.pdb": ""
+                    },
+                    "what_the_hell_it_is.sln": ""
+                },
+                "Pict_2_编码错误.png": "",
+                "Pict_2_配置编译器参数.png": "",
+                "Pict_3_使用字符编码替代字串.png": "",
+                "Pict_3_输出乱码.png": "",
+                "Pict_4_设置程序字符集.png": "",
+                "Pict_5_C区域设置下的printf_s.png": "",
+                "Pict_5_使用WriteFile进行输出.png": "",
+                "Pict_5_各种区域设置下的不同输出代码页的printf_s.png": "",
+                "Pict_5_探究wprintf_s.png": "",
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/编码问题/程序乱码/控制台输出乱码/Readme.md",
+        "cTime": 1722491092013.458,
+        "mTime": 1722644652728.958,
+        "struct": {
+            "what_the_hell_it_is": {
+                ".vs": {
+                    "what_the_hell_it_is": {
+                        "v16": {
+                            ".suo": "",
+                            "Solution.VC.db": ""
+                        }
+                    }
+                },
+                "1.CodePageError": {
+                    "1.CodePageError.vcxproj": "",
+                    "1.CodePageError.vcxproj.filters": "",
+                    "1.CodePageError.vcxproj.user": "",
+                    "Main_1.cpp": ""
+                },
+                "2.PrintError": {
+                    "Debug": {
+                        "2.PrintError.tlog": {
+                            "2.PrintError.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "2.PrintError.exe.recipe": "",
+                        "2.PrintError.ilk": "",
+                        "2.PrintError.log": "",
+                        "Main_2.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "2.PrintError.vcxproj": "",
+                    "2.PrintError.vcxproj.filters": "",
+                    "2.PrintError.vcxproj.user": "",
+                    "Main_2.cpp": ""
+                },
+                "3.HexCode": {
+                    "Debug": {
+                        "3.HexCode.tlog": {
+                            "3.HexCode.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "3.HexCode.exe.recipe": "",
+                        "3.HexCode.ilk": "",
+                        "3.HexCode.log": "",
+                        "Main_3.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "3.HexCode.vcxproj": "",
+                    "3.HexCode.vcxproj.filters": "",
+                    "3.HexCode.vcxproj.user": "",
+                    "Main_3.cpp": ""
+                },
+                "4.SetProcessCodePage": {
+                    "Debug": {
+                        "4.SetPro.6f80dce9.tlog": {
+                            "4.SetProcessCodePage.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "4.SetProcessCodePage.exe.recipe": "",
+                        "4.SetProcessCodePage.ilk": "",
+                        "4.SetProcessCodePage.log": "",
+                        "Main_4.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "4.SetProcessCodePage.vcxproj": "",
+                    "4.SetProcessCodePage.vcxproj.filters": "",
+                    "4.SetProcessCodePage.vcxproj.user": "",
+                    "Main_4.cpp": ""
+                },
+                "5.UseOtherOutput": {
+                    "Debug": {
+                        "5.UseOtherOutput.tlog": {
+                            "5.UseOtherOutput.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "5.UseOtherOutput.exe.recipe": "",
+                        "5.UseOtherOutput.ilk": "",
+                        "5.UseOtherOutput.log": "",
+                        "Main_5.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "5.UseOtherOutput.vcxproj": "",
+                    "5.UseOtherOutput.vcxproj.filters": "",
+                    "5.UseOtherOutput.vcxproj.user": "",
+                    "Main_5.cpp": ""
+                },
+                "5.WirteFile": {
+                    "Debug": {
+                        "5.WirteFile.tlog": {
+                            "5.WirteFile.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "5.WirteFile.exe.recipe": "",
+                        "5.WirteFile.ilk": "",
+                        "5.WirteFile.log": "",
+                        "Main_5.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "5.WirteFile.vcxproj": "",
+                    "5.WirteFile.vcxproj.filters": "",
+                    "5.WirteFile.vcxproj.user": "",
+                    "Main_5.cpp": ""
+                },
+                "6.wprintf_s": {
+                    "Debug": {
+                        "6.wprintf_s.tlog": {
+                            "6.wprintf_s.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "6.wprintf_s.exe.recipe": "",
+                        "6.wprintf_s.ilk": "",
+                        "6.wprintf_s.log": "",
+                        "Main_6.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "6.wprintf_s.vcxproj": "",
+                    "6.wprintf_s.vcxproj.filters": "",
+                    "6.wprintf_s.vcxproj.user": "",
+                    "Main_6.cpp": ""
+                },
+                "7.printf_s": {
+                    "Debug": {
+                        "7.printf_s.tlog": {
+                            "7.printf_s.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "7.printf_s.exe.recipe": "",
+                        "7.printf_s.ilk": "",
+                        "7.printf_s.log": "",
+                        "Main_7.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "7.printf_s.vcxproj": "",
+                    "7.printf_s.vcxproj.filters": "",
+                    "7.printf_s.vcxproj.user": "",
+                    "Main_7.cpp": ""
+                },
+                "8.CodePageMix": {
+                    "Debug": {
+                        "8.CodePageMix.tlog": {
+                            "8.CodePageMix.lastbuildstate": "",
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": ""
+                        },
+                        "8.CodePageMix.exe.recipe": "",
+                        "8.CodePageMix.ilk": "",
+                        "8.CodePageMix.log": "",
+                        "Main_8.obj": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "8.CodePageMix.vcxproj": "",
+                    "8.CodePageMix.vcxproj.filters": "",
+                    "8.CodePageMix.vcxproj.user": "",
+                    "Main_8.cpp": ""
+                },
+                "Debug": {
+                    "2.PrintError.exe": "",
+                    "2.PrintError.pdb": "",
+                    "3.HexCode.exe": "",
+                    "3.HexCode.pdb": "",
+                    "4.SetProcessCodePage.exe": "",
+                    "4.SetProcessCodePage.pdb": "",
+                    "5.UseOtherOutput.exe": "",
+                    "5.UseOtherOutput.pdb": "",
+                    "5.WirteFile.exe": "",
+                    "5.WirteFile.pdb": "",
+                    "6.wprintf_s.exe": "",
+                    "6.wprintf_s.pdb": "",
+                    "7.printf_s.exe": "",
+                    "7.printf_s.pdb": "",
+                    "8.CodePageMix.exe": "",
+                    "8.CodePageMix.pdb": "",
+                    "CodePageError.exe": "",
+                    "CodePageError.pdb": "",
+                    "printf_s.exe": "",
+                    "printf_s.pdb": ""
+                },
+                "what_the_hell_it_is.sln": ""
+            },
+            "Pict_2_编码错误.png": "",
+            "Pict_2_配置编译器参数.png": "",
+            "Pict_3_使用字符编码替代字串.png": "",
+            "Pict_3_输出乱码.png": "",
+            "Pict_4_设置程序字符集.png": "",
+            "Pict_5_C区域设置下的printf_s.png": "",
+            "Pict_5_使用WriteFile进行输出.png": "",
+            "Pict_5_各种区域设置下的不同输出代码页的printf_s.png": "",
+            "Pict_5_探究wprintf_s.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./VS2019/Readme.md",
+        "cTime": 1704015642180.19,
+        "mTime": 1722644523183.7678,
+        "struct": {
+            "使用项目模板": {
+                "Readme.md": ""
+            },
+            "配置.gitignore文件": {
+                "Readme.md": ""
+            },
+            "配置一个UTF-8编码项目": {
+                "Demo": {
+                    ".vs": {
+                        "Demo": {
+                            "v16": {
+                                ".suo": "",
+                                "Solution.VC.db": ""
+                            }
+                        }
+                    },
+                    "Debug": {
+                        "UserUTF8.exe": "",
+                        "UserUTF8.pdb": "",
+                        "UseUTF8.exe": "",
+                        "UseUTF8.pdb": ""
+                    },
+                    "UserUTF8": {
+                        "Debug": {
+                            "UserUTF8.tlog": {
+                                "CL.command.1.tlog": "",
+                                "CL.read.1.tlog": "",
+                                "CL.write.1.tlog": "",
+                                "link.command.1.tlog": "",
+                                "link.read.1.tlog": "",
+                                "link.write.1.tlog": "",
+                                "UserUTF8.lastbuildstate": ""
+                            },
+                            "Main.obj": "",
+                            "UserUTF8.exe.recipe": "",
+                            "UserUTF8.ilk": "",
+                            "UserUTF8.log": "",
+                            "vc142.idb": "",
+                            "vc142.pdb": ""
+                        },
+                        "Main.cpp": "",
+                        "UserUTF8.vcxproj": "",
+                        "UserUTF8.vcxproj.filters": "",
+                        "UserUTF8.vcxproj.user": ""
+                    },
+                    ".editorconfig": "",
+                    "Demo.sln": "",
+                    "TTTTT.props": ""
+                },
+                "Pict_editorConfig不生效.png": "",
+                "Pict_修改系统区域语言.png": "",
+                "Pict_启用插件.png": "",
+                "Pict_安装插件.png": "",
+                "Pict_生成editorconfig文件_1.png": "",
+                "Pict_生成editorconfig文件_2.png": "",
+                "Pict_编译器使用utf-8选项.png": "",
+                "Readme.md": ""
+            },
+            "配置静态库(第三方库)": {
+                "Pict_SetProcessDpiAwareness要求.png": "",
+                "Pict_SetProcessDpiAwarenewss链接错误.png": "",
+                "Pict_项目设置-静态库链接.png": "",
+                "Readme.md": ""
+            },
+            "配置项目属性表": {
+                "Pict_全局属性页.png": "",
+                "Pict_属性管理器界面.png": "",
+                "Pict_打开属性管理器.png": "",
+                "Pict_添加项目属性表.png": "",
+                "Readme.md": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./VS2019/配置项目属性表/Readme.md",
+        "cTime": 1722624378779.3362,
+        "mTime": 1722644523183.7678,
+        "struct": {
+            "Pict_全局属性页.png": "",
+            "Pict_属性管理器界面.png": "",
+            "Pict_打开属性管理器.png": "",
+            "Pict_添加项目属性表.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./VS2019/配置一个UTF-8编码项目/Readme.md",
+        "cTime": 1722384521465.165,
+        "mTime": 1722644397290.044,
+        "struct": {
+            "Demo": {
+                ".vs": {
+                    "Demo": {
+                        "v16": {
+                            ".suo": "",
+                            "Solution.VC.db": ""
+                        }
+                    }
+                },
+                "Debug": {
+                    "UserUTF8.exe": "",
+                    "UserUTF8.pdb": "",
+                    "UseUTF8.exe": "",
+                    "UseUTF8.pdb": ""
+                },
+                "UserUTF8": {
+                    "Debug": {
+                        "UserUTF8.tlog": {
+                            "CL.command.1.tlog": "",
+                            "CL.read.1.tlog": "",
+                            "CL.write.1.tlog": "",
+                            "link.command.1.tlog": "",
+                            "link.read.1.tlog": "",
+                            "link.write.1.tlog": "",
+                            "UserUTF8.lastbuildstate": ""
+                        },
+                        "Main.obj": "",
+                        "UserUTF8.exe.recipe": "",
+                        "UserUTF8.ilk": "",
+                        "UserUTF8.log": "",
+                        "vc142.idb": "",
+                        "vc142.pdb": ""
+                    },
+                    "Main.cpp": "",
+                    "UserUTF8.vcxproj": "",
+                    "UserUTF8.vcxproj.filters": "",
+                    "UserUTF8.vcxproj.user": ""
+                },
+                ".editorconfig": "",
+                "Demo.sln": "",
+                "TTTTT.props": ""
+            },
+            "Pict_editorConfig不生效.png": "",
+            "Pict_修改系统区域语言.png": "",
+            "Pict_启用插件.png": "",
+            "Pict_安装插件.png": "",
+            "Pict_生成editorconfig文件_1.png": "",
+            "Pict_生成editorconfig文件_2.png": "",
+            "Pict_编译器使用utf-8选项.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./VS2019/使用项目模板/Readme.md",
+        "cTime": 1722643306493.3093,
+        "mTime": 1722644146780.3193,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./VS2019/配置静态库(第三方库)/Readme.md",
+        "cTime": 1721472887219.6484,
+        "mTime": 1722530828888.6753,
+        "struct": {
+            "Pict_SetProcessDpiAwareness要求.png": "",
+            "Pict_SetProcessDpiAwarenewss链接错误.png": "",
+            "Pict_项目设置-静态库链接.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/编码问题/字符集/Readme.md",
+        "cTime": 1721769947922.9644,
+        "mTime": 1722530509450.3274,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./C++/动态链接库dll/Readme.md",
+        "cTime": 1703822379514.0771,
+        "mTime": 1722069211441.0906,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./C++/API风格/Readme.md",
+        "cTime": 1722038637292.6238,
+        "mTime": 1722048470153.9604,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/[Python]钩子PyHook3.HookManager的坑/Readme.md",
+        "cTime": 1704062349315.909,
+        "mTime": 1721613805659.8472,
+        "struct": {
+            "pict": {
+                "1.png": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Python/无控制台运行脚本/Readme.md",
+        "cTime": 1721497697847.1094,
+        "mTime": 1721497909254.1438,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./其他/给立方体标点/Readme.md",
+        "cTime": 1718863607152.8843,
+        "mTime": 1721479194831.6726,
+        "struct": {
+            "source": {
+                "Code.py": "",
+                "Figure_1.png": "",
+                "Figure_2.png": ""
+            },
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Windows/[C++]多线程/Readme.md",
+        "cTime": 1720214273417.3176,
+        "mTime": 1720214527157.941,
+        "struct": {
+            "Readme.md": ""
+        }
+    },
+    {
+        "name": "./Web开发/本地网页服务器/Readme.md",
+        "cTime": 1718833024138.9238,
+        "mTime": 1718991686260.666,
+        "struct": {
+            "1.png": "",
+            "2.png": "",
+            "Readme.md": ""
+        }
+    },
+    {
         "name": "./其他/大学作业/MATLAB课件/Readme.md",
         "cTime": 1714205545448.4912,
         "mTime": 1718149744689.2744,
@@ -843,7 +2700,7 @@
         }
     },
     {
-        "name": "./C++/[Windows]获取进程父子关系(进程树)+终止目标进程及其子进程/Readme.md",
+        "name": "./Windows/[C++]获取进程父子关系(进程树)+终止目标进程及其子进程/Readme.md",
         "cTime": 1704018651966.7217,
         "mTime": 1704647840423.7102,
         "struct": {
@@ -884,38 +2741,10 @@
         }
     },
     {
-        "name": "./VS2019/Readme.md",
-        "cTime": 1704015642180.19,
-        "mTime": 1704070031364.5615,
-        "struct": {
-            "文件编码问题": {
-                "pict": {
-                    "1.png": ""
-                },
-                "Readme.md": ""
-            },
-            "配置.gitignore文件": {
-                "Readme.md": ""
-            },
-            "Readme.md": ""
-        }
-    },
-    {
         "name": "./VS2019/配置.gitignore文件/Readme.md",
         "cTime": 1704015661147.228,
         "mTime": 1704070031364.5615,
         "struct": {
-            "Readme.md": ""
-        }
-    },
-    {
-        "name": "./VS2019/文件编码问题/Readme.md",
-        "cTime": 1704019041584.463,
-        "mTime": 1704069702183.8318,
-        "struct": {
-            "pict": {
-                "1.png": ""
-            },
             "Readme.md": ""
         }
     },
@@ -931,18 +2760,7 @@
         }
     },
     {
-        "name": "./Python/[Windows]PyHook3.HookManager的坑/Readme.md",
-        "cTime": 1704062349315.909,
-        "mTime": 1704062485525.2842,
-        "struct": {
-            "pict": {
-                "1.png": ""
-            },
-            "Readme.md": ""
-        }
-    },
-    {
-        "name": "./CMD命令/Readme.md",
+        "name": "./Windows/CMD命令/Readme.md",
         "cTime": 1704021042345.3025,
         "mTime": 1704021383030.3577,
         "struct": {
@@ -973,7 +2791,7 @@
         }
     },
     {
-        "name": "./CMD命令/在FOR中的SET变量失效问题/Readme.md",
+        "name": "./Windows/CMD命令/在FOR中的SET变量失效问题/Readme.md",
         "cTime": 1704021240042.17,
         "mTime": 1704021383030.3577,
         "struct": {
@@ -981,7 +2799,7 @@
         }
     },
     {
-        "name": "./CMD命令/个人BAT脚本/Readme.md",
+        "name": "./Windows/CMD命令/个人BAT脚本/Readme.md",
         "cTime": 1701639290013.078,
         "mTime": 1704021140546.6106,
         "struct": {
@@ -1003,7 +2821,7 @@
         }
     },
     {
-        "name": "./CMD命令/SET变量判空/Readme.md",
+        "name": "./Windows/CMD命令/SET变量判空/Readme.md",
         "cTime": 1704021055292.4766,
         "mTime": 1704021120700.88,
         "struct": {
@@ -1095,7 +2913,7 @@
         }
     },
     {
-        "name": "./Python/[Windows]修改文件目录时间(创建-访问-修改)/Readme.md",
+        "name": "./Windows/[Python]修改文件目录时间(创建-访问-修改)/Readme.md",
         "cTime": 1704017299131.84,
         "mTime": 1704017579450.531,
         "struct": {
@@ -1218,14 +3036,6 @@
             "pict": {
                 "1.png": ""
             },
-            "Readme.md": ""
-        }
-    },
-    {
-        "name": "./C++/动态链接库dll/Readme.md",
-        "cTime": 1703822379514.0771,
-        "mTime": 1703905328703.9602,
-        "struct": {
             "Readme.md": ""
         }
     },

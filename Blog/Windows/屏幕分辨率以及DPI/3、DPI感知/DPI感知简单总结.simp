@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp02335b8ca1de419da1bb5c95b16a97eb">
+  <meta>
+    <name>DPI感知简单总结</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="state" type="State" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>55</value>
+      </counter>
+      <counter>
+        <item-type type-id="state" type="State" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="general-transition" type="Transition" />
+        <value>7</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlStateMachineDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-bf35b8c26a7045128f9ba4a722631e0c" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-0016ad4ac2f842f5946646e7c60ad9eb" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="ped1f63536e5f488e8200bd8defbbf1b2_168303813" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>07/20/2024 20:48:02</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-statechart" id="pe94540e3889b49bc947c8267fbd29273_431129429" name="StateMachineDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-92,-173" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/20/2024 20:48:02</creation-date>
+          <change-date>07/20/2024 20:49:18</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="cf8cc64386ad45f78c1883cc212f21db" cid="ST001" type="state" name="不感知" style-class="" change-tracking-state="added" creator="" creation-date="07/20/2024 20:48:07">
+            <state composite="false" orthogonal="false" simple="false" submachine-state="false">
+              <state-invariant />
+              <actions />
+              <source-codes>
+                <source-code language="ActionScript" uid="scs-b3507450-8cbd-4051-b12f-cffbd7e252de" />
+              </source-codes>
+            </state>
+          </item>
+          <item id="fc868a09367145f3be695f4745e09302" cid="ST002" type="state" name="静态感知" style-class="" change-tracking-state="added" creator="" creation-date="07/20/2024 20:48:11">
+            <state composite="false" orthogonal="false" simple="false" submachine-state="false">
+              <state-invariant />
+              <actions />
+            </state>
+          </item>
+          <item id="a566a1ade45349449745690504e7e7e3" cid="ST003" type="state" name="动态感知" style-class="" change-tracking-state="added" creator="" creation-date="07/20/2024 20:48:16">
+            <state composite="false" orthogonal="false" simple="false" submachine-state="false">
+              <state-invariant />
+              <actions />
+            </state>
+          </item>
+          <item id="625ba6185a1e49a6a19049fedbffaa9e" cid="ELEM005" type="general-transition" name="" style-class="" change-tracking-state="added" creator="" creation-date="07/20/2024 20:49:15" from="cf8cc64386ad45f78c1883cc212f21db" to="fc868a09367145f3be695f4745e09302" visibility="package">
+            <transition guard="" behaviourExpression="">
+              <trigger>设置一次软件DPI</trigger>
+            </transition>
+          </item>
+          <item id="0791485105c4414292decc5772a37cee" cid="ELEM006" type="general-transition" name="" style-class="" change-tracking-state="added" creator="" creation-date="07/20/2024 20:49:18" from="fc868a09367145f3be695f4745e09302" to="a566a1ade45349449745690504e7e7e3" visibility="package">
+            <transition guard="" behaviourExpression="">
+              <trigger>
+屏幕DPI发生变化时发送WM_DPICHANGED；
+能正确获取每个监视器的物理屏幕坐标；
+窗口DPI始终与屏幕DPI保持一致；</trigger>
+            </transition>
+          </item>
+        </abstract-items>
+        <layer id="c10457327e2244eeb9d3f10c17742de9" name="Default" visible="true" enabled="true" locked="false">
+          <item id="cf8cc64386ad45f78c1883cc212f21db" iid="fbf38b32819949c7955c6ca42a55afb2" creation-date="07/20/2024 20:48:07" order-index="0" type="entity">
+            <layout ax="98" ay="251" awidth="100" aheight="50" x="98" y="251" width="100" height="50" />
+          </item>
+          <item id="fc868a09367145f3be695f4745e09302" iid="646adf78d6f34cba814cdef7b681f414" creation-date="07/20/2024 20:48:11" order-index="1" type="entity">
+            <layout ax="385" ay="251" awidth="100" aheight="50" x="385" y="251" width="100" height="50" />
+          </item>
+          <item id="a566a1ade45349449745690504e7e7e3" iid="11ef56ac8e074fac85ade621da523dc6" creation-date="07/20/2024 20:48:16" order-index="2" type="entity">
+            <layout ax="839" ay="251" awidth="100" aheight="50" x="839" y="251" width="100" height="50" />
+          </item>
+          <item id="625ba6185a1e49a6a19049fedbffaa9e" iid="e6efc9a8b0c1485db2915feebbd13438" creation-date="07/20/2024 20:49:15" order-index="3" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="198" y1="276" x2="385" y2="276" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
+              <points>
+                <point x="198" y="276" />
+                <point x="385" y="276" />
+              </points>
+            </layout>
+            <relation from="cf8cc64386ad45f78c1883cc212f21db" from-iid="fbf38b32819949c7955c6ca42a55afb2" to="fc868a09367145f3be695f4745e09302" to-iid="646adf78d6f34cba814cdef7b681f414" />
+          </item>
+          <item id="0791485105c4414292decc5772a37cee" iid="90840443e3b1493bb2fd7f9a98ef979a" creation-date="07/20/2024 20:49:18" order-index="4" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="485" y1="276" x2="839" y2="276" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
+              <points>
+                <point x="485" y="276" />
+                <point x="839" y="276" />
+              </points>
+            </layout>
+            <relation from="fc868a09367145f3be695f4745e09302" from-iid="646adf78d6f34cba814cdef7b681f414" to="a566a1ade45349449745690504e7e7e3" to-iid="11ef56ac8e074fac85ade621da523dc6" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
